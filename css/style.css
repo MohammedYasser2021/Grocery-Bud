@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ddd;
+}
+.section-center{
+    padding: 20px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #ccc;
+    text-align: center
+}
+.grocery-bud h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.grocery-bud .grocery-controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grocery-bud .grocery-controls input{
+    width :70%;
+    padding: 7px 10px; 
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    color:#222;
+    font-size: 17px;
+    font-family: inherit;
+}
+.grocery-bud .grocery-controls .add-btn{
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: #4FBFF1;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 18px;
+}
+.grocery-bud .alert{
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px;
+}
+.grocery-bud .alert.alert-danger{
+    color: crimson
+}
+.grocery-bud .alert.alert-success{
+    color:limegreen
+}
+.grocery-container{
+    margin-top: 20px;
+    display: none;
+}
+.grocery-container.show-container{
+    display: block;
+}
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #eee;
+    border-radius: 10px; 
+}
+.grocery-item .edit-btn{
+    background-color: transparent;
+    color: #2E9145;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.grocery-item .delete-btn{
+    background-color: transparent;
+    color: crimson;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+.clear-btn{
+    background-color: crimson;
+    color :#fff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
